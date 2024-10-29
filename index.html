@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabXplore</title>
+  <link rel="shortcut icon" href="./images/bacte_icon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LabXplore</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#featured">Featured Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search Tests" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5 container-fluid" id="landing">
+      <div class="position-relative">
+        <img id="landing-img" src="./images/landing.jpeg" alt="Landing Image" class="img-fluid">
+      </div>
+      <div id="landing-text" class="text-center">
+        <h1 id="title">Empowering Health Through Insightful Testing</h1>
+        <p>Your portal to understanding vital health insights through laboratory tests.</p>
+      </div>
+    </section>
+
+    <section class="py-5" id="introduction">
+      <div class="container">
+        <div class="position-relative">
+          <img src="./images/blue_bg.jpg" alt="Introduction Image" class="img-fluid" id="intro-img">
+          <div
+            class="intro-content position-absolute top-50 start-0 translate-middle-y text-white d-flex justify-content-between w-100">
+            <div class="intro-text me-3">
+              <p>Explore a variety of resources designed to enhance your understanding of laboratory testing.</p>
+            </div>
+            <div class="intro-button">
+              <a href="#categories" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="featured">
+      <div class="container text-center">
+        <h2>Featured Resources</h2>
+        <p>Discover our curated selection of educational materials on laboratory tests and their significance.</p>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/clsi.png" class="img-fluid rounded-start" alt="Resource 1">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">CLSI</h5>
+                    <p class="card-text">Develop best practices in clinical and laboratory testing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/ascp.jpg" class="img-fluid rounded-start" alt="Resource 2">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">ASCP</h5>
+                    <p class="card-text">Professional society for pathologists and laboratory professionals</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light" id="categories-section">
+      <div class="container text-center">
+        <h2>Categories</h2>
+        <div id="categories" class="row mt-4 justify-content-center">
+          <div class="col-lg-4 col-md-5 mb-4">
+            <div class="card">
+              <img src="./images/card1.jpg" class="card-img-top" alt="Card Image 1">
+              <div class="card-body">
+                <h5 class="card-title">Test Overview</h5>
+                <p class="card-text">Learn about the various lab tests available and their significance for your health.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 mb-4">
+            <div class="card">
+              <img src="./images/card2.jpg" class="card-img-top" alt="Card Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Blood Tests</h5>
+                <p class="card-text">Explore different blood tests and what they reveal about your health.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 mb-4">
+            <div class="card">
+              <img src="./images/card3.jpg" class="card-img-top" alt="Card Image 3">
+              <div class="card-body">
+                <h5 class="card-title">Urine Tests</h5>
+                <p class="card-text">Understand the types of urine tests and their importance in diagnostics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>We aim to provide accessible and thorough educational resources on laboratory testing for learners at
+              every level.</p>
+          </div>
+          <div class="col-md-6">
+            <h2>Contact Information</h2>
+            <div id="contact-info">
+              <div class="contact-item">
+                <i class="bi bi-envelope-fill"></i>
+                <strong>Email:</strong> info@labxplore.com
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone-fill"></i>
+                <strong>Phone:</strong> (123) 456-7890
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-geo-alt-fill"></i>
+                <strong>Address:</strong> 123 Lab Lane, Science City, ST 12345
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-4">
+      <div class="container">
+        <p>&copy; 2024 LabXplore. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
