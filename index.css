@@ -61,7 +61,7 @@ h4 {
   color: #2563eb;
 }
 
-#landing {
+#home {
   position: relative;
   height: 70vh;
   display: flex;
@@ -220,7 +220,7 @@ h4 {
 
 #about h2 {
   color: #1e40af;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 2.5rem;
 }
 
@@ -229,6 +229,15 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.6;
 }
+
+#mission h3 {
+  color: #1e40af;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
 
 #contact-info {
   background-color: #ffffff;
